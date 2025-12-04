@@ -1,0 +1,92 @@
+/* Repay.css */
+
+/* Container */
+.repay-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.repay-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #1e293b; /* dark blue-gray */
+}
+
+/* Loan Item Card */
+.loan-item {
+  background-color: #f8fafc; /* very light gray */
+  border-left: 4px solid #3b82f6; /* blue accent */
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.loan-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Loan Details */
+.loan-item p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #334155; /* dark gray */
+}
+
+.loan-item p strong {
+  color: #1e293b; /* darker text for labels */
+}
+
+/* Repay Button */
+.loan-item button {
+  margin-top: 12px;
+  padding: 10px 18px;
+  background-color: #3b82f6; /* blue */
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.loan-item button:hover {
+  background-color: #2563eb; /* darker blue */
+  transform: translateY(-1px);
+}
+
+/* Status Message */
+.status-message {
+  margin-top: 20px;
+  padding: 12px 15px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #1e293b;
+  background-color: #f1f5f9; /* light background */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .repay-container {
+    padding: 15px 20px;
+  }
+
+  .loan-item {
+    padding: 15px;
+  }
+
+  .loan-item button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}

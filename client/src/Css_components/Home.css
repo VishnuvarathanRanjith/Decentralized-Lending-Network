@@ -1,0 +1,93 @@
+.home-container {
+  padding: 50px 8%;
+  background: #f9faff;
+  color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- About Us ---------- */
+.about-us-container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+}
+
+.about-us-container h2 {
+  color: #004aad;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #004aad;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-us-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* ---------- Trusted Borrowers List ---------- */
+.trusted-list {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.trusted-list h2 {
+  text-align: center;
+  color: #0077ff;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.loan-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loan-header, .loan-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 1fr;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.loan-header {
+  background: #e9f1ff;
+  font-weight: 600;
+  color: #004aad;
+}
+
+.loan-row {
+  background: #f7f9ff;
+  transition: 0.2s ease;
+}
+
+.loan-row:hover {
+  background: #e9f0ff;
+  transform: translateY(-1px);
+}
+
+.borrower {
+  font-size: 0.9rem;
+  word-break: break-all;
+  color: #333;
+}
+
+.status.approved {
+  color: green;
+  font-weight: bold;
+}
+
+.no-loans {
+  text-align: center;
+  color: #777;
+  font-size: 1.1rem;
+}

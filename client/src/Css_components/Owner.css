@@ -1,0 +1,77 @@
+/* Container */
+.owner-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.owner-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1f2937; /* Dark gray */
+  font-size: 1.8rem;
+}
+
+/* Message */
+.owner-container p {
+  text-align: center;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+/* Table */
+.owner-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.owner-container th,
+.owner-container td {
+  padding: 0.75rem 0.5rem;
+  border: 1px solid #e5e7eb; /* Light gray */
+  text-align: center;
+}
+
+.owner-container th {
+  background-color: #f3f4f6;
+  color: #111827;
+  font-weight: 600;
+}
+
+/* Rows hover */
+.owner-container tbody tr:hover {
+  background-color: #f9fafb;
+  transition: background-color 0.3s ease;
+}
+
+/* Approve button */
+.approve-btn {
+  background-color: #2563eb; /* Blue */
+  color: #ffffff;
+  padding: 0.4rem 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.approve-btn:hover {
+  background-color: #1d4ed8; /* Darker blue */
+  transform: translateY(-1px);
+}
+
+/* No pending loans */
+.no-loans {
+  text-align: center;
+  color: #6b7280; /* Gray */
+  margin-top: 1rem;
+  font-style: italic;
+}
